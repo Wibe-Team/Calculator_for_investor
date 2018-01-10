@@ -1,0 +1,1658 @@
+doctype html
+html(lang="ru")
+	head
+		title= Title
+		link(rel='stylesheet', href='/css/nanoscroller.css')
+		link(rel='stylesheet', href='/css/style.css')
+		meta(charset='utf-8')
+	body
+		#tooltip
+		#calc_script
+			#cs_content
+				#frame_graphic_online_o
+					iframe#frame_graphic_online(src='https://s.tradingview.com/widgetembed/?interval=D&symboledit=1&saveimage=1&toolbarbg=f1f3f6&studies=%5B%5D&hideideas=1&theme=Light&style=1&timezone=Etc%2FUTC&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=ru&utm_source=calc.foortes.com&utm_medium=widget&utm_campaign=chart&utm_term=BATS_DLY%3AAAPL')
+				.csc_left_menu.active#csclm_calc
+					.csclm_head Выберите актив
+					.block_select_style_static
+						.block_select_style#csclm_block_select
+							#csclm_block_select_o.nano
+								.nano-content#csclm_b_scroll
+									.csclmbs_option(val_tiker='AUDNZD' val_currencies='AUDNZD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='AUDUSD' edit_cotirovka_Y='1 / NZDUSD' this_cotirovka='0') AUDNZD
+									.csclmbs_option(val_tiker='AUDUSD' val_currencies='AUDUSD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='AUDUSD' edit_cotirovka_Y='1' this_cotirovka='0') AUDUSD
+									.csclmbs_option(val_tiker='EURAUD' val_currencies='EURAUD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='1 / AUDUSD' this_cotirovka='0') EURAUD
+									.csclmbs_option(val_tiker='EURCAD' val_currencies='EURCAD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='USDCAD' this_cotirovka='0') EURCAD
+									.csclmbs_option(val_tiker='EURCHF' val_currencies='EURCHF' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='USDCHF' this_cotirovka='0') EURCHF
+									.csclmbs_option(val_tiker='EURGBP' val_currencies='EURGBP' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='1 / GBPUSD' this_cotirovka='0') EURGBP
+									.csclmbs_option(val_tiker='EURJPY' val_currencies='EURJPY' punct_val='0.01' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='USDJPY' this_cotirovka='0') EURJPY
+									.csclmbs_option(val_tiker='EURNZD' val_currencies='EURNZD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='1 / NZDUSD' this_cotirovka='0') EURNZD
+									.csclmbs_option.active(val_tiker='EURUSD' val_currencies='EURUSD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='EURUSD' edit_cotirovka_Y='1' this_cotirovka='0') EURUSD
+									.csclmbs_option(val_tiker='GBPJPY' val_currencies='GBPJPY' punct_val='0.01' lot='100000' plecho_L='100' edit_cotirovka_G='GBPUSD' edit_cotirovka_Y='USDJPY' this_cotirovka='0') GBPJPY
+									.csclmbs_option(val_tiker='GBPUSD' val_currencies='GBPUSD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='GBPUSD' edit_cotirovka_Y='1' this_cotirovka='0') GBPUSD
+									.csclmbs_option(val_tiker='NZDUSD' val_currencies='NZDUSD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='NZDUSD' edit_cotirovka_Y='1' this_cotirovka='0') NZDUSD
+									.csclmbs_option(val_tiker='USDCAD' val_currencies='USDCAD' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='1' edit_cotirovka_Y='USDCAD' this_cotirovka='0') USDCAD
+									.csclmbs_option(val_tiker='USDCHF' val_currencies='USDCHF' punct_val='0.0001' lot='100000' plecho_L='100' edit_cotirovka_G='1' edit_cotirovka_Y='USDCHF' this_cotirovka='0') USDCHF
+									.csclmbs_option(val_tiker='USDJPY' val_currencies='USDJPY' punct_val='0.01' lot='100000' plecho_L='100' edit_cotirovka_G='1' edit_cotirovka_Y='USDJPY' this_cotirovka='0') USDJPY
+									.csclmbs_option(val_tiker='USDRUB' val_currencies='USDRUB' punct_val='0.001' lot='100000' plecho_L='100' edit_cotirovka_G='1' edit_cotirovka_Y='USDRUB' this_cotirovka='0') USDRUB
+									.csclmbs_option(val_tiker='USDTRY' val_currencies='USDTRY' punct_val='0.0001' lot='100000' plecho_L='10' edit_cotirovka_G='1' edit_cotirovka_Y='USDTRY' this_cotirovka='0') USDTRY
+									.csclmbs_option(val_tiker='XAGUSD' val_currencies='XAGUSD' punct_val='0.01' lot='5000' plecho_L='100' edit_cotirovka_G='XAGUSD' edit_cotirovka_Y='1' this_cotirovka='0') XAGUSD
+									.csclmbs_option(val_tiker='XAUUSD' val_currencies='XAUUSD' punct_val='0.1' lot='100' plecho_L='100' edit_cotirovka_G='XAUUSD' edit_cotirovka_Y='1' this_cotirovka='0') XAUUSD
+									.csclmbs_option(val_tiker='AAPL' val_currencies='AAPL' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='AAPL' edit_cotirovka_Y='1' this_cotirovka='0') AAPL
+									.csclmbs_option(val_tiker='AMZN' val_currencies='AMZN' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='AMZN' edit_cotirovka_Y='1' this_cotirovka='0') AMZN (Amazon)
+									.csclmbs_option(val_tiker='BABA' val_currencies='BABA' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='BABA' edit_cotirovka_Y='1' this_cotirovka='0') BABA (Alibaba)
+									.csclmbs_option(val_tiker='FB' val_currencies='FB' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='FB' edit_cotirovka_Y='1' this_cotirovka='0') FB (Facebook)
+									.csclmbs_option(val_tiker='GOOG' val_currencies='GOOG' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='GOOG' edit_cotirovka_Y='1' this_cotirovka='0') GOOG (Alphabet)
+									.csclmbs_option(val_tiker='MCD' val_currencies='MCD' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='MCD' edit_cotirovka_Y='1' this_cotirovka='0') MCD (McDonalds)
+									.csclmbs_option(val_tiker='MSFT' val_currencies='MSFT' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='MSFT' edit_cotirovka_Y='1' this_cotirovka='0') MSFT (Microsoft)
+									.csclmbs_option(val_tiker='RACE' val_currencies='RACE' punct_val='0.1' lot='100' plecho_L='5' edit_cotirovka_G='RACE' edit_cotirovka_Y='1' this_cotirovka='0') RACE (Ferrari)
+									.csclmbs_option(val_tiker='TSLA' val_currencies='TSLA' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='TSLA' edit_cotirovka_Y='1' this_cotirovka='0') TSLA (Tesla)
+									.csclmbs_option(val_tiker='V' val_currencies='V' punct_val='0.1' lot='100' plecho_L='10' edit_cotirovka_G='V' edit_cotirovka_Y='1' this_cotirovka='0') V (Visa)
+									.csclmbs_option(val_tiker='BCOUSD' val_currencies='CL_BRENT' punct_val='0.01' lot='100' plecho_L='100' edit_cotirovka_G='CL_BRENT' edit_cotirovka_Y='1' this_cotirovka='0') CL_BRENT (Нефть Brent)
+									.csclmbs_option(val_tiker='WTICOUSD' val_currencies='WTI_OIL' punct_val='0.01' lot='100' plecho_L='100' edit_cotirovka_G='WTI_OIL' edit_cotirovka_Y='1' this_cotirovka='0') WTI_OIL (Нефть WTI)
+									.csclmbs_option(val_tiker='UK100GBP' val_currencies='GBR_100' punct_val='0.1' lot='10' plecho_L='100' edit_cotirovka_G='GBR_100 * GBPUSD' edit_cotirovka_Y='1 / GBPUSD' this_cotirovka='0') GBR_100 (Индекс UK)
+									.csclmbs_option(val_tiker='GRXEUR' val_currencies='GER_30' punct_val='0.1' lot='10' plecho_L='100' edit_cotirovka_G='GER_30 * EURUSD' edit_cotirovka_Y='1 / EURUSD' this_cotirovka='0') GER_30 (Индекс EU)
+									.csclmbs_option(val_tiker='SPX500USD' val_currencies='SPX500' punct_val='0.1' lot='100' plecho_L='100' edit_cotirovka_G='SPX500' edit_cotirovka_Y='1' this_cotirovka='0') SPX500 (Индекс USD)
+					
+
+
+					#href_online_graphic Открыть онлайн график
+					.csclm_name_info Текущая котировка
+						.csclmni_valuse#csclmni_this_cotirovka 1.17690
+
+					.csclm_name_info
+						p.csclmni_name Сумма на аккаунте
+						input.csclmni_valuse_input#csclmni_this_money_account(type="text" value="1 000 $")
+					input.csclm_gradient_imput#csclm_this_money_account_inp(type='range', min='1', max='109', step='1', value='10')
+					
+					.csclm_razdel_o
+						.csclm_razdel
+					
+					.csclm_button_double.csclm_pocupka_prodazha
+						.csclmbd_but_list.active#csclmbd_pocupka Покупка
+						.csclmbd_but_list#csclmbd_prodazha Продажа
+					
+					.csclm_gradient_block
+						.csclmgb_name
+							.csclmgbn_text Хочу заработать на сделке
+							.csclmgbn_error(data-tooltip='Фактическое плечо не может превышать значение маржинального плеча по данному инструменту, указанному в спецификации контрактов. Маржинальное обеспечение не может превышать значение суммы на аккаунте. Необходимо уменьшить желаемую прибыль или увеличить значение Цели (тейк профита)') !
+						.csclmgb_price#scslmgb_hochu_zarabatovat_na_sdelke 10%
+						input.csclm_white_input#scslmgb_hochu_zarabatovat_na_sdelke_input_range(type='range', min='1', max='100', step='0.5', value='1')
+						input.csclm_edit_num_input#hochu_zarabatovat_na_sdelke___percent(type="text" value="1$")
+
+					.csclm_name_info
+						p.csclmni_name Цель (тейк профит)
+							.csclmnivbf_error(data-tooltip='Фактическое плечо не может превышать значение маржинального плеча по данному инструменту, указанному в спецификации контрактов. Маржинальное обеспечение не может превышать значение суммы на аккаунте. Необходимо уменьшить желаемую прибыль или увеличить значение Цели (тейк профита)') !
+						input.csclmni_valuse_input#csclmni_cel_input_text(type="text" value="1.16690")
+						p.csclmni_value_bold_full#csclmni_name_punct_val_cel 50 пунктов
+					input.csclm_gradient_imput#csclmni_cel_input_range(type='range', min='10', max='500', step='1', value='50')
+					.csclm_name_info
+						p.csclmni_name Риск (стоп лосс)
+						input.csclmni_valuse_input#csclmni_risk_input_text(type="text" value="1.16690")
+						p.csclmni_value_bold_full#csclmni_name_punct_val_risk 50 пунктов
+					input.csclm_gradient_imput#csclmni_risk_input_range(type='range', min='10', max='500', step='1', value='50')
+
+				.csc_left_menu#csclm_cel_tridera
+					.csclm_head Выберите цель
+					.csclm_button_double.csclm_dohod_nakopity
+						.csclmbd_but_list.active#csclmbd_dohod_mounth_left_menu_2 Доход в месяц
+						.csclmbd_but_list#csclmbd_nakopity_summu_left_menu_2 Накопить сумму
+					.csclm_gradient_block
+						.csclmgb_name#csclmgb_name_left_menu_2 Хочу заработать на сделке
+						.csclmgb_price#scslmgb_hochu_zarabatovat_na_sdelke_left_menu_2 100 $
+						input.csclm_white_input.width100percent#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2(type='range', min='500', max='20000', step='500', value='500')
+					.csclm_name_info
+						p.csclmni_name НАЧАЛЬНАЯ СУММА НА АККАУНТЕ
+						p.csclmni_value_bold_full#csclmn_start_money_in_account___left_menu_2 5 000 $
+					input.csclm_gradient_imput#start_money_in_account___left_menu_2(type='range', min='1000', max='100000', step='1000', value='5000')
+
+					.csclm_razdel_o.left_menu_2
+						.csclm_razdel
+
+					.csclm_name_info
+						p.csclmni_name СРЕДНЕДНЕВНОЙ ПРИРОСТ
+						p.csclmni_value_bold_full#csclmni_name_punct_val_cel_left_menu_2 20 пунктов
+					input.csclm_gradient_imput#csclmni_cel_input_range_left_menu_2(type='range', min='10', max='1000', step='10', value='20')
+
+					.csclm_razdel_o.left_menu_2
+						.csclm_razdel
+
+					.csclm_name_info
+						p.csclmni_name ИСПОЛЬЗУЕМОЕ ПЛЕЧО
+						p.csclmni_value_bold_full#csclmni_name_punct_val_risk_left_menu_2 10
+					input.csclm_gradient_imput#csclmni_risk_input_range_left_menu_2(type='range', min='1', max='100', step='1', value='1')
+					#href_online_graphic_left_menu_2 Открыть онлайн график
+
+
+				#csc_content_menu
+					#csccm_head
+						.scscmh_menu_list#scscmhml_calc.active Калькулятор
+						.scscmh_menu_list#scscmhml_cel Цель трейдера
+					.csccm_block.active#csccmc1_calc
+						.csccm_container_1
+							#csccmc1_raschetnie_pokazateli
+								.csccmc1rp_container_x4.left
+									.csccmc1rpcx4_name Результат
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Возможный доход
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_vozmozhniy_dogod 100 $
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Доходность
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_dohodnost 1%
+								.csccmc1rp_container_x4.right
+									.csccmc1rpcx4_name Риски
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Допустимый убыток
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_risk_v_sdelke 120 $
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Риск
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_risk 2.40%
+								.csccmc1rp_container_x4.left
+									.csccmc1rpcx4_name Объём
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Требуемый объём
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_trebuemiy_obem 0.4 лота
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Маржинальное обеспечение
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_margilnoe_obespechenie 470.76 $
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Фактическое плечо
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_facticheskoe_plecho 1:10
+								.csccmc1rp_container_x4.right
+									.csccmc1rpcx4_name Расчет спрэда и свопа
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Спрэд
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_spred_money 1.20 $
+										.csccmc1rpcx4d_value.center#csccmc1rpcx4d_spred_punct (0.3 п.)
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Своп
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_swop_percent 5.60%
+										.csccmc1rpcx4d_value.center#csccmc1rpcx4d_swop_punct (1.4 п.)
+									.csccmc1rpcx4_data
+										.csccmc1rpcx4d_name Стоимость пункта
+										.csccmc1rpcx4d_value#csccmc1rpcx4d_stoimost_puncta 4.0 $
+										.csccmc1rpcx4d_value.center 1 пункт
+							.csccmc1_full_width_block#csccmc1_vozmozhniy_result
+								.csccmc1fwb_full
+									.csccmc1fwbf_name Динамика роста капитала по месяцам
+									.csccmc1fwbf_exit#csccmc1fwbc_exit_button ×
+								.csccmc1fwb_graphick
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 1й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 2й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 3й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 4й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 5й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 6й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 7й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 8й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 9й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 10й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 11й
+									.csccmc1fwbg_colum
+										.csccmc1fwbgc_row_money 5 408 $
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row
+										.csccmc1fwbgc_row_num 12й
+								.csccmc1fwb_name Возможный результат, совершая несколько сделок в месяц
+								.csccmc1fwb_content
+									.csccmc1fwbc_name Количество сделок:
+									.csccmc1fwbc_value#csccmc1fwbc_value_vozmozhniy_rezultat 2
+									.csccmc1fwbc_value_input_o
+										input.csclm_gradient_imput#csccmc1fwbc_value_rang_input(type='range', min='1', max='5', step='1', value='2')
+									.csccmc1fwbc_button#csccmc1fwbc_open_button Рассчитать
+							.csccmc1_full_width_block#csccmc1_info_block
+								.csccmc1fwb_name Хотите добиться стабильного результата в торговле?
+								.csccmc1fwb_content
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/1.png')
+										.csccmc1fwbctsb_name Интенсив и коучинг
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/2.png')
+										.csccmc1fwbctsb_name Трейдинг рум
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/3.png')
+										.csccmc1fwbctsb_name Краткосрочные идеи
+									a.csccmc1fwbc_button.v_center(href='/') Зарегистрироваться
+					.csccm_block#csccmc1_cel_tridera
+						.csccm_container_1
+							#csccmc1_graphick_cel_tridera
+								.csccmc1fwbf_name#csccmc1gct_name Динамика изменения дохода
+								.csccmc1fwbf_date#csccmc1gct_date 4 года 7 месяцев
+								.csccmc1fwbf_info cрок выхода на желаемый доход
+								.csccmc1_graphick.two_grephick#csccmc1_two_grephick
+								.csccmc1_summ_account
+									.csccmc1sa_name Сумма на аккаунте за выбранный период:
+									.csccmc1sa_value 27 015,62 $
+							.csccmc1_full_width_block#csccmc1_info_block
+								.csccmc1fwb_name Хотите добиться стабильного результата в торговле?
+								.csccmc1fwb_content
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/1.png')
+										.csccmc1fwbctsb_name Интенсив и коучинг
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/2.png')
+										.csccmc1fwbctsb_name Трейдинг рум
+									a.csccmc1fwbc_three_section_button(href='/')
+										img.csccmc1fwbctsb_img(src='/img/3.png')
+										.csccmc1fwbctsb_name Краткосрочные идеи
+									a.csccmc1fwbc_button.v_center(href='/') Зарегистрироваться
+				.cc_info
+					b Внимание!
+					p *Рассчитанный доход не учитывает комиссию за открытие позиции и суммарную комиссию за перенос позиции через ночь.
+					p *Расчет носит исключительно информационный и вспомогательный характер, не гарантирует получение дохода в будущем и не является публичной офертой.
+					p *За более точными расчетами Вы можете обратиться к нашим экспертам.
+		//- Jquery 3.2.1
+		script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+
+		script.
+			$('.csclm_pocupka_prodazha>div').click(function(){
+				if(!$(this).hasClass('active')){
+					$('.csclm_pocupka_prodazha>div').removeClass('active');
+					$(this).addClass('active');
+				}
+				csclmni_cotirovka();
+				//- csclmni_range_cel();
+				//- csclmni_range_risk();
+			});
+		script.
+			$('#scscmhml_calc').click(function(){
+				$('#csclm_cel_tridera').removeClass('active');
+				$('#scscmhml_cel').removeClass('active');
+				$('#csccmc1_cel_tridera').removeClass('active');
+				$('#csclm_calc').addClass('active');
+				$('#csccmc1_calc').addClass('active');
+				$(this).addClass('active');
+			});
+			$('#scscmhml_cel').click(function(){
+				$('#csclm_calc').removeClass('active');
+				$('#scscmhml_calc').removeClass('active');
+				$('#csccmc1_calc').removeClass('active');
+				$('#csclm_cel_tridera').addClass('active');
+				$('#csccmc1_cel_tridera').addClass('active');
+				$(this).addClass('active');
+			});
+
+		//- Scroll Plugin MacOS
+		script(src='/js/jquery.nanoscroller.min.js')
+		script.
+			$('#csccmc1fwbc_open_button').click(function(){
+				$('.csccm_container_1').addClass('active');
+			});
+			$('#csccmc1fwbc_exit_button').click(function(){
+				$('.csccm_container_1').removeClass('active');
+			});
+			load_this_cotirovka();
+			function load_this_cotirovka(){
+				var t=$('.csclmbs_option'),
+					Activy="",
+					ActivyOi="",
+					tLength=t.length-1;
+				t.each(function(index){
+					var tVal=$(this).attr('val_currencies');
+					Activy+=tVal;
+					ActivyOi+=tVal+'.oi';
+					if(index<tLength){
+						Activy+=',';
+						ActivyOi+=','
+					}
+				});
+				ltcActivyOi(ActivyOi);
+				function ltcActivyOi(ActivyOi){
+					var ActivyOi=ActivyOi;
+					$.ajax({
+						type:'POST',
+						data: {
+							currencies:ActivyOi
+						},
+						url:'https://openfx.by/scripts/quotes.php',
+						success: function(data){
+							var obj=JSON.parse(data);
+							for(key in obj){
+								//- console.log(key.replace('.oi',''),obj[key]);
+								var el=$('.csclmbs_option[val_currencies^="'+key.replace('.oi','')+'"]');
+								el.attr('this_cotirovka',rtrim(rtrim(obj[key].bid,'0'),'.'));
+								el.attr('this_ask',obj[key].ask);
+							}
+							ltcActivy(Activy);
+						}
+					});
+				}
+				function ltcActivy(Activy){
+					var Activy=Activy;
+					$.ajax({
+						type:'POST',
+						data: {
+							currencies:Activy
+						},
+						url:'https://openfx.by/scripts/quotes.php',
+						success: function(data){
+							var obj=JSON.parse(data);
+							for(key in obj){
+								//- console.log(key,obj[key]);
+								var el=$('.csclmbs_option[val_currencies^="'+key+'"]');
+								el.attr('this_cotirovka',rtrim(rtrim(obj[key].bid,'0'),'.'));
+								el.attr('this_ask',obj[key].ask);
+							}
+							setTimeout(load_this_cotirovka,30000);
+							ajax_openfx_by_currencies();
+						}
+					});
+				}
+				$.ajax({
+					type:'POST',
+					data: {
+						swaps:true
+					},
+					url:'https://openfx.by/sites/all/modules/custom/fortraiders/fortraders_api.php',
+					success: function(data){
+						var obj=JSON.parse(data);
+						//- console.log(obj);
+						for(key in obj){
+							//- console.log(obj[key].currency, obj[key],'-------------------------');
+							var el=$('.csclmbs_option[val_currencies^="'+obj[key].currency+'"]');
+							el.attr('this_buy',obj[key].buy);
+							el.attr('this_sell',obj[key].sell);
+						}
+						//- console.log(obj);
+					}
+				});
+			}
+			$('#csclm_block_select').click(function(){
+				csclm_block_select(false,this);
+				//- alert($('.csclmbs_option.active').offset().top);
+				$('#csclm_b_scroll').scrollTop($('.csclmbs_option.active').offset().top-$('.csclmbs_option.active').height()*2);
+			});
+			$('#href_online_graphic').click(function(){
+				frame_graphic_online(false,this);
+			});
+			$(document).mouseup(function(e){
+				csclm_block_select(true,e);
+				frame_graphic_online(true,e);
+			});
+
+			function frame_graphic_online(close,t){
+				var t=t,
+				el=$('#frame_graphic_online');
+				if(close===true){
+					if(el.has(t.target).length===0){
+						$('#frame_graphic_online_o').css('display','none');
+					}
+				}else{
+					if($(t).attr('id')=='href_online_graphic_left_menu_2'){
+						el.attr('src',el.attr('src')+'&symbol=EURUSD');
+						//- alert('EURUSD');
+					}else{
+						el.attr('src',el.attr('src')+'&symbol='+$('.csclmbs_option.active').attr('val_tiker'));
+					}
+					$('#frame_graphic_online_o').css('display','block');
+				}
+			}
+
+			function csclm_block_select(close,t){
+				var t=t;
+				if(close===true&&$('#csclm_block_select').has(t.target).length===0){
+					$('#csclm_block_select').removeClass('active');
+				}else{
+					if($(t).hasClass('active')){
+						$(t).removeClass('active');
+						$(".nano").nanoScroller({ destroy: true });
+					}else{
+						$(t).addClass('active');
+						$(".nano").nanoScroller();
+					}
+				}
+			}
+
+			$('.csclmbs_option').click(function(){
+				if(!$(this).hasClass('active')){
+					$('.csclmbs_option').removeClass('active');
+					$(this).addClass('active');
+					ajax_openfx_by_currencies($(this).attr('val_currencies'),false);
+				}
+			});
+			function ajax_openfx_by_currencies(){
+				$('#csclmni_this_cotirovka').html($('.csclmbs_option.active').attr('this_cotirovka'))
+				//- csclmni_cotirovka();//Изменяем котировку "цели" и "риска"
+				all_left_event();
+				//- max_hochu_zarabotat_na_sdelke();
+				//- max_cel_input_range();
+				csclmni_cel_input_range();
+				csclmni_risk_input_range();
+				swop();
+			}
+
+
+			
+
+
+
+		script.
+			function addspace(str) {
+				var parts = (str + '').split('.'),
+			        main = parts[0],
+			        len = main.length,
+			        output = '',
+			        i = len - 1;
+			    
+			    while(i >= 0) {
+			        output = main.charAt(i) + output;
+			        if ((len - i) % 3 === 0 && i > 0) {
+			            output = ' ' + output;
+			        }
+			        --i;
+			    }
+
+			    if (parts.length > 1) {
+			        output += '.' + parts[1];
+			    }
+			    return output;
+			}
+			function rtrim ( str, charlist ) {	// Strip whitespace (or other characters) from the end of a string
+				// 
+				// +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+				// +	  input by: Erkekjetter
+				// +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+
+				charlist = !charlist ? ' \s\xA0' : charlist.replace(/([\[\]\(\)\.\?\/\*\{\}\+\$\^\:])/g, '\$1');
+				var re = new RegExp('[' + charlist + ']+$', 'g');
+				return str.replace(re, '');
+			}
+			
+			
+			$("[data-tooltip]").mousemove(function (eventObject) {
+				$data_tooltip = $(this).attr("data-tooltip");
+				$("#tooltip").text($data_tooltip)
+					.css({ 
+						"top" : eventObject.pageY + 5,
+						"left" : eventObject.pageX + 5
+					})
+					.show();
+			}).mouseout(function () {
+				$("#tooltip").hide()
+				.text("")
+				.css({
+				 	"top" : 0,
+					"left" : 0
+				});
+			});
+
+
+			var hochu_zarabotat_virtual=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+				tekuschiy_balance_virtual=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);
+			function swop(){
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var swopPunct=parseFloat($('.csclmbs_option.active').attr('this_buy'))*0.1;
+				}else{
+					var swopPunct=parseFloat($('.csclmbs_option.active').attr('this_sell'))*0.1;
+				}
+				var P=parseFloat($('#csccmc1rpcx4d_stoimost_puncta').html().replace(/[^.0-9]/gim,''), 10),
+					A=$('.csclmbs_option.active').attr('val_currencies');
+				if(A=='XAGUSD'||A=='XAUUSD'){
+					swopPunct/=0.1;
+					swopPunct/=360;//(1)
+					var obem=parseFloat($('#csccmc1rpcx4d_trebuemiy_obem').html().replace(/[^.0-9]/gim,''), 10),//(2)
+						CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+						lot=parseInt($('.csclmbs_option.active').attr('lot'));//Значение лота
+					var swopDengi=obem*lot*CP*swopPunct/100;
+					//- console.log('obem => '+obem+' * '+'lot => '+lot+' * '+'CP => '+CP+' * '+'swopPunct => '+swopPunct+' / '+'100');
+					$('#csccmc1rpcx4d_swop_punct').html('('+swopPunct.toFixed(2)+' %)');
+					$('#csccmc1rpcx4d_swop_percent').html(swopDengi.toFixed(2)+' $');
+				}else{
+					var swopDengi=swopPunct*P;
+					$('#csccmc1rpcx4d_swop_punct').html('('+swopPunct.toFixed(2)+' п.)');
+					$('#csccmc1rpcx4d_swop_percent').html(swopDengi.toFixed(2)+' $');
+				}
+				//- if($('#csclmbd_pocupka').hasClass('active')){
+				//- 	var swopPunct=parseFloat($('.csclmbs_option.active').attr('this_buy')).toFixed(1)*0.1;
+				//- 	var swopDengi=swopPunct*P;
+				//- 	$('#csccmc1rpcx4d_swop_punct').html('('+swopPunct+')');
+				//- 	$('#csccmc1rpcx4d_swop_percent').html(swopDengi);
+				//- 	console.log('P => '+P);
+				//- }else{
+				//- 	var swopPunct=parseFloat($('.csclmbs_option.active').attr('this_sell')).toFixed(1)*0.1;
+				//- 	//- $('#csccmc1rpcx4d_swop_punct').html('('+swopPunct+')');
+				//- }
+				//- var A=$('.csclmbs_option.active').attr('val_currencies');
+				//- if(A=='XAGUSD'||A=='XAUUSD'||A=='GBR_100'||A=='GER_30'||A=='SPX500'){
+				//- 	var P=$('.csclmbs_option.active').attr('punct_val');
+				//- 	swopPercent=(swopPunct/100*365).toFixed(1)+' %';
+				//- 	swopPunct=(swopPunct*P*0.1).toFixed(1)+' пункта';
+				//- }else{
+				//- 	var CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+				//- 	swopPercent=(swopPunct/0.1*CP).toFixed(1)+'$';
+				//- 	swopPunct=swopPunct+' пункта';
+				//- }
+				//- $('#csccmc1rpcx4d_swop_punct').html('('+swopPunct+')');
+				//- $('#csccmc1rpcx4d_swop_percent').html(swopDengi);
+
+			}
+			function val_input_money_correcting(coefecient){//Округляем $ до допустимых чисел
+				if(coefecient>1000){
+					if(coefecient<100000){
+						coefecient=Math.round(coefecient/1000)*1000;
+					}else if(coefecient>100000){
+						coefecient=100000;
+					}
+				}else if(coefecient<1000){
+					if(coefecient<100){
+						coefecient=100;
+					}else if(coefecient>100){
+						coefecient=Math.round(coefecient/100)*100;
+					}
+				}
+				return coefecient;
+			}
+
+
+			function val_input_money_in_coeficient(money){//Переводим $ коефициент
+				if(money<=1000){
+					money*=0.01;
+				}else{
+					money*=0.001;
+					money+=9;
+				}
+				return money;
+			}
+
+			function val_input_coeficient_in_money(coefecient){//Переводим коефициент в $
+				if(coefecient<=10){
+					coefecient*=100;
+				}else{
+					coefecient-=9;
+					coefecient*=1000;
+				}
+				return coefecient;
+			}
+
+			function hochu_zarabatovat_na_sdelke___percent_value(){//Возвращает значение инпута "Хочу заработать на зделке" (проценты), проверенные на валидность.
+				return $('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val();
+			}
+
+			function round_percent(percent){//Возвращает значение с десятичным знаком или без (если его нету)
+				return percent.toFixed(1)-Math.round(percent)==0?Math.round(percent) : percent.toFixed(1);
+			}
+
+			//- function hochu_zarabatovat_na_sdelke___percent(){//Получаем значение процента
+			//- 	var pr_percent=round_percent(hoche_zarab_na_sdelke/tekuschiy_balance*100);
+			//- 	if(pr_percent>10000||pr_percent<0.1){
+			//- 		$('#csclmni_this_money_account').trigger('change');
+			//- 		return false;
+			//- 	}else{
+			//- 		$('#hochu_zarabatovat_na_sdelke___percent').val(pr_percent+'%');
+			//- 		return true;
+			//- 	}
+			//- }
+			
+
+			function gradient_input(element,color1,color2,color3){//Добавляем градиент переданому элементу с передаными цветами
+				var percent=(element.val()-1) / (element.attr('max')-1) * 100;
+				//- console.log('percent => ',percent);
+				element.css('background-image', '-webkit-linear-gradient(left, '+color1+' 0%, '+color2+' '+percent+'%, '+color3+' '+percent+'%)');
+				//- console.log(element.val(),' / ',element.attr('max'),' * ',100,' = ',percent);
+			}
+
+
+			function hochu_zarabotat___search_percent(output){//Переводим "Хочу заработать" в проценты от "Текущей суммы"
+				var hochu_zarabotat=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val(),//Получаем значение "Хочу заработать"
+					tekuschiy_balans=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),//Получаем значение "Текущий баланс"
+					pr_percent=round_percent(tekuschiy_balans/100*hochu_zarabotat);//Переводим в проценты
+					//- console.log('pr_percent => '+pr_percent,"tekuschiy_balans => "+tekuschiy_balans,"hochu_zarabotat => "+hochu_zarabotat);
+					//- console.log(hochu_zarabotat,' / ',tekuschiy_balans,' * ',100);
+				//- console.log('Процент => ',pr_percent);
+
+				if(output){//Если параметр output===true , то выводим процент в инпут иначе возвращаем %
+					$('#hochu_zarabatovat_na_sdelke___percent').val(addspace(Math.round(pr_percent))+' $');//выводим процент в инпут и добавляем символ %
+					$('#csccmc1rpcx4d_vozmozhniy_dogod').html(addspace(Math.round(pr_percent))+' $');//выводим процент в инпут и добавляем символ %
+				}else{
+					return pr_percent;//возвращаем %
+				}
+			}
+
+			function refresh_all(){//Переводим "Хочу заработать" в проценты от "Текущей суммы"
+				this_money_account___range_in_money();//Значение коефициента (текущей суммы на аккаунте) записываем в инпут, перевядя в $
+				this_money_account___money_in_range();//Берет значение инпута с текущей суммы на аккаунте и записывает в ползунок, перевядя в коефициент
+
+				hochu_zarabotat___range_in_money();//Выводим на экран $ хочу заработать
+				hochu_zarabotat___money_in_range();//Меняем положение ползунка опираясь на $
+			}
+
+
+			//--------------------------------------------------------------------------------------------
+			this_money_account___range_in_money();
+			$('#csclm_this_money_account_inp').on('input', function(){//Событие изменения ползунка текущей суммы на аккаунте
+				hochu_zarabotat___search_percent(true);//Выводим на экран процент "Хочу заработать" от "Текущей суммы"
+				refresh_all();
+				all_left_event();
+			});
+			function this_money_account___range_in_money(){//Берет значение коефициента (изменения текущей суммы на аккаунте) и записывает в инпут, перевядя в $
+				var pr_inp=$('#csclm_this_money_account_inp').val();//Записываем значение
+				//- console.log('\n','Коефициент ползунка (val) => ',pr_inp);
+				pr_inp=val_input_coeficient_in_money(pr_inp);//Переводим коефициент (значение Input) в деньги
+				tekuschiy_balance_virtual=pr_inp;
+				//- console.log('Коефициент ползунка (val) переведенный в $ функцией val_input_coeficient_in_money() => ',pr_inp);
+				$('#csclmni_this_money_account').val(addspace(pr_inp)+' $');// Добавляем прробеллы и $ и записываем в Input
+				gradient_input($('#csclm_this_money_account_inp'),'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на текущий инпут
+			}
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			$('#csclmni_this_money_account').keyup(function(){//Инпут типа текст текущего баланса, Событие Keyup
+				this_money_account___money_in_range();//Берет значение инпута с текущей суммы на аккаунте и записывает в ползунок, перевядя в коефициент
+				all_left_event();
+			});
+
+			$('#csclmni_this_money_account').change(function(){//Инпут типа текст текущего баланса, Событие Change
+				$(this).val(addspace(this_money_account___money_in_range())+' $');
+				this_money_account___range_in_money();//Значение коефициента (текущей суммы на аккаунте) записываем в инпут, перевядя в $
+				all_left_event();
+			});
+			function this_money_account___money_in_range(){//Берет значение инпута с текущей суммы на аккаунте и записывает в ползунок, перевядя в коефициент
+				var pr_inp=parseFloat($('#csclmni_this_money_account').val().replace(/[^.0-9]/gim,''), 10);//Записываем значение, оставив лишь цифри и точки и приводим к типу Float
+				//- console.log('\n','Сумма на аккаунте (val инпут) => ',pr_inp);
+				pr_inp=val_input_money_correcting(pr_inp);//Округляем $ до допустимых чисел
+				pr_inp=val_input_money_in_coeficient(pr_inp);//Переводим $ коефициент
+				$('#csclm_this_money_account_inp').val(pr_inp);//Записываем коефициент в ползунок, тем самым изменяя его положения
+				gradient_input($('#csclm_this_money_account_inp'),'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на инпут
+				//- console.log('Input(#csclmni_this_money_account) val => ',pr_inp);
+
+
+				hochu_zarabotat___search_percent(true);//Выводим на экран процент "Хочу заработать" от "Текущей суммы"
+				return val_input_coeficient_in_money(pr_inp);
+			}
+			//--------------------------------------------------------------------------------------------
+
+
+
+			//--------------------------------------------------------------------------------------------
+			hochu_zarabotat___range_in_money();
+			gradient_input($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range'),'#fdfdfd','#fdfdfd','rgba(167,129,214,.7)');
+			var scslmgb_hochu_zarabatovat_na_sdelke_input_range=parseFloat($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val());
+			$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').on('input', function(){//Обрабатываем изменения ползунка "Хочу заработать"
+				if(max_hochu_zarabotat_na_sdelke()){
+					scslmgb_hochu_zarabatovat_na_sdelke_input_range=parseFloat($(this).val());
+				}else{
+					return false;
+				}
+			});
+			var ifWhileMHZNS=true;
+			function max_hochu_zarabotat_na_sdelke(){//проверка на маржинальное обеспечение и фактическое плечо
+				if(ifWhileMHZNS){
+					ifWhileMHZNS=false;
+					refresh_all();
+					all_left_event();
+					var L=parseFloat($('.csclmbs_option.active').attr('plecho_L')),
+						G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active')),
+						lot=parseInt($('.csclmbs_option.active').attr('lot')),
+						K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+						M=V*lot/L*G;
+					M=M.toFixed(2);
+
+					var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+						TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+						CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+						K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+					//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+					if($('#csclmbd_pocupka').hasClass('active')){
+						var FL=S/(K*(TP-CP)/CP);
+						//- D18/(D15*(F12-G21)/F12)
+
+					}else{
+						var FL=S/(K*(CP-TP)/CP);
+						//- D18/(D15*(G21-F12)/F12))
+					}
+					//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+					FL=Math.ceil(FL);
+					if(M>=K||FL>=100){
+						M=0;
+						FL=0;
+						$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val(scslmgb_hochu_zarabatovat_na_sdelke_input_range+1);
+						while(K>=M&&100>=FL){
+							$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val(parseFloat($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val())+0.5);
+							refresh_all();
+							all_left_event();
+							L=parseFloat($('.csclmbs_option.active').attr('plecho_L'));
+							G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active'));
+							lot=parseInt($('.csclmbs_option.active').attr('lot'));
+							M=V*lot/L*G;
+							M=M.toFixed(2);
+
+
+							S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+							TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+							CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+							K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+							//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+							if($('#csclmbd_pocupka').hasClass('active')){
+								var FL=S/(K*(TP-CP)/CP);
+								//- D18/(D15*(F12-G21)/F12)
+
+							}else{
+								var FL=S/(K*(CP-TP)/CP);
+								//- D18/(D15*(G21-F12)/F12))
+							}
+							//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+							FL=Math.ceil(FL);
+						}
+						$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val(parseFloat($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val())-0.5);
+						refresh_all();
+						all_left_event();
+						console.log(false);
+						console.log('FL => '+FL);
+						ifWhileMHZNS=true;
+						$("[data-tooltip]").show();
+						return false;
+					}
+					console.log('M => '+M+' | K => '+K);
+					refresh_all();
+					hochu_zarabotat___search_percent(true);//Выводим на экран процент "Хочу заработать" от "Текущей суммы"
+					all_left_event();
+					ifWhileMHZNS=true;
+					$("[data-tooltip]").hide();
+					return true;
+				}
+			}
+			function data_tooltip_error(){
+				var L=parseFloat($('.csclmbs_option.active').attr('plecho_L')),
+					G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active')),
+					lot=parseInt($('.csclmbs_option.active').attr('lot')),
+					K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+					M=V*lot/L*G;
+					M=M.toFixed(2);
+
+				var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+					CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+					K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+				//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var FL=S/(K*(TP-CP)/CP);
+					//- D18/(D15*(F12-G21)/F12)
+
+				}else{
+					var FL=S/(K*(CP-TP)/CP);
+					//- D18/(D15*(G21-F12)/F12))
+				}
+				//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+				FL=Math.ceil(FL);
+				if(M>=K||FL>=100){
+					$("[data-tooltip]").show();
+				}else{
+					$("[data-tooltip]").hide();
+				}
+			}
+			function hochu_zarabotat___range_in_money(){//Выводим на экран $ хочу заработать
+				var pr_inp=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range').val();
+				//- console.log('pr_inp => '+pr_inp);
+				$('#scslmgb_hochu_zarabatovat_na_sdelke,#csccmc1rpcx4d_dohodnost').html(pr_inp+' %');//выводим процент
+				gradient_input($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range'),'#fdfdfd','#fdfdfd','rgba(167,129,214,.7)');
+				
+			}
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			$('#hochu_zarabatovat_na_sdelke___percent').keyup(function(){//Обработка события изменения инпута (нажатие клавиши)
+				hochu_zarabotat___money_in_range();//Меняем положение ползунка опираясь на $
+				hochu_zarabotat___range_in_money();//Выводим на экран $ хочу заработать
+				all_left_event();
+			});
+			function hochu_zarabatovat_na_sdelke___money_validation(){
+				var pr_inp=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					TB=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);
+				if(pr_inp>0&&pr_inp<TB){
+					return pr_inp;
+				}else if(pr_inp>TB){
+					return TB;
+				}else{
+					return 10;
+				}
+			}
+			function hochu_zarabatovat_na_sdelke___money_validation_bool(){
+				var pr_inp=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					TB=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);
+				if(pr_inp>0&&pr_inp<TB){
+					return true;
+				}else{
+					return false;
+				}
+			}
+			$('#hochu_zarabatovat_na_sdelke___percent').change(function(){//Обработка события изменения инпута (Enter и выход из инпута)
+				$(this).val(addspace(hochu_zarabatovat_na_sdelke___money_validation())+' $');//Берем значение инпута типа текст (в процентах) и добавляем к нему знак процента (на случай, если символ процента удален случайно)
+				hochu_zarabotat___money_in_range();//Меняем положение ползунка опираясь на $
+				hochu_zarabotat___range_in_money();//Выводим на экран $ хочу заработать
+				all_left_event();
+			});
+
+			function hochu_zarabotat___money_in_range(){//Меняем положение ползунка опираясь на $
+				var pr_inp=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					TB=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);
+				//- consoение le.log("значинпута типа текст (в процентах) => ", pr_inp);
+				pr_inp=pr_inp/TB*100;//Переводим значение из процентов в коефициент
+				var t=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range'); //записываем элемент в переменную
+				t.val(pr_inp);//Записываем коефициент в инпут (ползунок)
+				//- console.log("значение инпута типа текст (в процентах) => ", pr_inp);
+				gradient_input(t,'#fdfdfd','#fdfdfd','rgba(167,129,214,.7)'); //добавляем к этому элементу градиент
+			}
+			//--------------------------------------------------------------------------------------------
+
+
+
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			function csclmni_name_punkt_value(element,val){//Берем или записываем значение в "количество пунктов" + слово "пункстов"
+				var t=element;
+				if(val){
+					val=parseInt(val.replace(/\D+/g,""), 10);
+				}else{
+					val=0;
+				}
+				//- console.log('csclmni_name_punkt_value() val => ',val);
+				if(val>0){
+					t.html(val+' пунктов');
+					t.attr('punct',val);
+					return true;
+				}else{
+					return parseInt(t.attr('punct'), 10);
+				}
+			}
+			function csclmni_cotirovka(){
+				csclmni_cotirovka_cel();
+				csclmni_cotirovka_risk();
+			}
+			function csclmni_cotirovka_cel(){//изменяем инпут, основываясь на ползунок
+				var t=$('#csclmni_cel_input_range'),
+					t_name_punct=$('#csclmni_name_punct_val_cel'),
+					t_cotirovka=parseFloat($('#csclmni_this_cotirovka').html());
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var kotirovka=t_cotirovka+csclmni_name_punkt_value(t_name_punct)*parseFloat($('.csclmbs_option.active').attr('punct_val'));
+				}else{
+					var kotirovka=t_cotirovka-csclmni_name_punkt_value(t_name_punct)*parseFloat($('.csclmbs_option.active').attr('punct_val'));
+				}
+				kotirovka=kotirovka.toFixed(5);
+
+				$('#csclmni_cel_input_text').val(rtrim(rtrim(kotirovka, '0'), '.'));
+				//- console.log(kotirovka);
+				all_left_event();
+			}
+			function csclmni_cotirovka_risk(){//изменяем инпут, основываясь на ползунок
+				var t=$('#csclmni_risk_input_range'),
+					t_name_punct=$('#csclmni_name_punct_val_risk'),
+					t_cotirovka=parseFloat($('#csclmni_this_cotirovka').html());
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var kotirovka=t_cotirovka-csclmni_name_punkt_value(t_name_punct)*parseFloat($('.csclmbs_option.active').attr('punct_val'));
+				}else{
+					var kotirovka=t_cotirovka+csclmni_name_punkt_value(t_name_punct)*parseFloat($('.csclmbs_option.active').attr('punct_val'));
+				}
+				kotirovka=kotirovka.toFixed(5);
+				$('#csclmni_risk_input_text').val(rtrim(rtrim(kotirovka, '0'), '.'));
+				//- console.log(kotirovka);
+				all_left_event();
+			}
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			csclmni_cel_input_range();
+			var csclmni_cel_input_range_val_done=parseInt($('#csclmni_cel_input_range').val());
+			$('#csclmni_cel_input_range').on('input', function(){//Обрабатываем изменения ползунка "Цель (СТОП ЛОСС)"
+				if(max_cel_input_range()){
+					csclmni_cel_input_range_val_done=parseInt($(this).val());
+				}else{
+					return false;
+				}
+				
+			});
+			var ifWhileMCIR=true;
+			function max_cel_input_range(){//проверка на маржинальное обеспечение и фактическое плечо
+				if(ifWhileMCIR){
+					ifWhileMCIR=false;
+					all_left_event();
+					var L=parseFloat($('.csclmbs_option.active').attr('plecho_L')),
+						G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active')),
+						lot=parseInt($('.csclmbs_option.active').attr('lot')),
+						K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+						M=V*lot/L*G;
+					M=M.toFixed(2);
+
+					var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+						TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+						CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+						K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+					//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+					if($('#csclmbd_pocupka').hasClass('active')){
+						var FL=S/(K*(TP-CP)/CP);
+						//- D18/(D15*(F12-G21)/F12)
+
+					}else{
+						var FL=S/(K*(CP-TP)/CP);
+						//- D18/(D15*(G21-F12)/F12))
+					}
+					//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+					FL=Math.ceil(FL);
+					if(M>K||FL>100){
+						M=0;
+						FL=0;
+						$('#csclmni_cel_input_range').val(csclmni_cel_input_range_val_done+1);
+						while(K>=M&&100>=FL){
+							$('#csclmni_cel_input_range').val(parseInt($('#csclmni_cel_input_range').val())-1);
+							all_left_event();
+							console.log('--'+$('#csclmni_cel_input_range').val());
+							L=parseInt($('.csclmbs_option.active').attr('plecho_L'));
+							G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active'));
+							lot=parseInt($('.csclmbs_option.active').attr('lot'));
+							M=V*lot/L*G;
+							M=M.toFixed(2);
+
+
+							S=Math.round(parseInt($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+							TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+							CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+							K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+							//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+							if($('#csclmbd_pocupka').hasClass('active')){
+								var FL=S/(K*(TP-CP)/CP);
+								//- D18/(D15*(F12-G21)/F12)
+
+							}else{
+								var FL=S/(K*(CP-TP)/CP);
+								//- D18/(D15*(G21-F12)/F12))
+							}
+							//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+							FL=Math.ceil(FL);
+							console.log('max_cel_input_range() ---- M => '+M+' | K => '+K+' | FL => '+FL);
+						}
+						$('#csclmni_cel_input_range').val(parseInt($('#csclmni_cel_input_range').val())+1);
+						all_left_event();
+						csclmni_cel_input_range();//Выводим на экран котировку, в зависимости от положения ползунка
+						console.log(false);
+						csclmni_cel_input_range_val_done=parseInt(parseInt($('#csclmni_cel_input_range').val()));
+						console.log('csclmni_cel_input_range_val_done => '+csclmni_cel_input_range_val_done);
+						ifWhileMCIR=true;
+						$("[data-tooltip]").show();
+						return false;
+					}
+					console.log(true);
+					console.log('max_cel_input_range() ---- M => '+M+' | K => '+K+' | FL => '+FL);
+					console.log('FL ---- S => '+S+' | TP => '+TP+' | CP => '+CP+' | K => '+K);
+					all_left_event();
+					csclmni_cel_input_range();//Выводим на экран котировку, в зависимости от положения ползунка
+					ifWhileMCIR=true;
+					$("[data-tooltip]").hide();
+					return true;
+				}
+			}
+			function csclmni_cel_input_range(){
+				var t=$('#csclmni_cel_input_range'),
+					t_name_punct=$('#csclmni_name_punct_val_cel');
+				gradient_input(t,'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на инпут
+				csclmni_name_punkt_value(t_name_punct,t.val());//Берем или записываем значение в "количество пунктов" + слово "пункстов"
+				csclmni_cotirovka_cel();//Просчитываем котировку и выводим ее значение
+			}
+			$('#csclmni_cel_input_text').keyup(function(){//Обрабатываем изменения ползунка "РИСК (СТОП ЛОСС)"
+				var t=$('#csclmni_cel_input_range');
+				csclmni_range_cel();//Выводим на экран котировку, в зависимости от положения ползунка
+				gradient_input(t,'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на инпут
+				all_left_event();
+			});
+			//- $('#csclmni_cel_input_text').change(function(){//Обрабатываем изменения ползунка "РИСК (СТОП ЛОСС)"
+			//- 	csclmni_range_cel();//Выводим на экран котировку, в зависимости от положения ползунка
+			//- 	csclmni_cel_input_range();
+			//- 	all_left_event();
+			//- });
+			function csclmni_range_cel(){//меняем ползунок, опираясь на данные введенные инпутом
+				var t=$('#csclmni_cel_input_range'),
+					tText=$('#csclmni_cel_input_text'),
+					t_name_punct=$('#csclmni_name_punct_val_cel'),
+					t_cotirovka=parseFloat($('#csclmni_this_cotirovka').html());
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var kotirovka=Math.round(($('#csclmni_cel_input_text').val()-t_cotirovka)/parseFloat($('.csclmbs_option.active').attr('punct_val')));
+				}else{
+					var kotirovka=Math.round(($('#csclmni_cel_input_text').val()-t_cotirovka)/parseFloat($('.csclmbs_option.active').attr('punct_val')))*-1;
+				}
+				//- console.log('kotirovka=>'+kotirovka);
+				t.val(kotirovka);
+				csclmni_name_punkt_value(t_name_punct,tText.val());//Берем или записываем значение в "количество пунктов" + слово "пункстов"
+			}
+			//--------------------------------------------------------------------------------------------
+
+			//--------------------------------------------------------------------------------------------
+			csclmni_risk_input_range();
+			$('#csclmni_risk_input_range').on('input', function(){//Обрабатываем изменения ползунка "РИСК (СТОП ЛОСС)"
+				csclmni_risk_input_range();//Выводим на экран котировку, в зависимости от положения ползунка
+				all_left_event();
+			});
+			function csclmni_risk_input_range(){
+				var t=$('#csclmni_risk_input_range'),
+					t_name_punct=$('#csclmni_name_punct_val_risk');
+				gradient_input(t,'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на инпут
+				csclmni_name_punkt_value(t_name_punct,t.val());//Берем или записываем значение в "количество пунктов" + слово "пункстов"
+				csclmni_cotirovka_risk();
+			}
+			$('#csclmni_risk_input_text').keyup(function(){//Обрабатываем изменения ползунка "РИСК (СТОП ЛОСС)"
+				var t=$('#csclmni_risk_input_range');
+				csclmni_range_risk();//Выводим на экран котировку, в зависимости от положения ползунка
+				gradient_input(t,'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на инпут
+				all_left_event();
+			});
+			//- $('#csclmni_risk_input_text').change(function(){//Обрабатываем изменения ползунка "РИСК (СТОП ЛОСС)"
+			//- 	csclmni_range_risk();//Выводим на экран котировку, в зависимости от положения ползунка
+			//- 	csclmni_risk_input_range();
+			//- 	all_left_event();
+			//- });
+			function csclmni_range_risk(){//меняем ползунок, опираясь на данные введенные инпутом
+				var t=$('#csclmni_risk_input_range'),
+					tText=$('#csclmni_risk_input_text'),
+					t_name_punct=$('#csclmni_name_punct_val_risk'),
+					t_cotirovka=parseFloat($('#csclmni_this_cotirovka').html());
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var kotirovka=Math.round(($('#csclmni_risk_input_text').val()-t_cotirovka)/parseFloat($('.csclmbs_option.active').attr('punct_val')))*-1;
+				}else{
+					var kotirovka=Math.round(($('#csclmni_risk_input_text').val()-t_cotirovka)/parseFloat($('.csclmbs_option.active').attr('punct_val')));
+				}
+				t.val(kotirovka);
+				csclmni_name_punkt_value(t_name_punct,tText.val());//Берем или записываем значение в "количество пунктов" + слово "пункстов"
+				//- console.log(kotirovka);
+			}
+			//--------------------------------------------------------------------------------------------
+			function all_left_event(){
+				csccmc1rpcx4d_risk();
+				csccmc1rpcx4d_stoimost_puncta();
+				csccmc1rpcx4d_facticheskoe_plecho();
+				csccmc1rpcx4d_spred_punct();
+				csccmc1fwb_graphick();
+				data_tooltip_error();
+				swop();
+			}
+			function csccmc1rpcx4d_risk(){
+				var CP=parseFloat($('#csclmni_this_cotirovka').html()),
+					TP=parseFloat($('#csclmni_cel_input_text').val()),
+					SL=parseFloat($('#csclmni_risk_input_text').val()),
+					j=hochu_zarabatovat_na_sdelke___percent_value();
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var res=(CP-SL)/(TP-CP)*j;
+					//- console.log('(CP-SL)/(TP-CP)*j');
+				}else{
+					var res=(SL-CP)/(CP-TP)*j;
+					//- console.log('(SL-CP)/(CP-TP)*j');
+				}
+				res=res.toFixed(2);
+				$('#csccmc1rpcx4d_risk').html(res+'%');
+				csccmc1rpcx4d_risk_v_sdelke(res);
+			}
+			function csccmc1rpcx4d_risk_v_sdelke(j){
+				var K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),
+				res=(K*j/100).toFixed(2);
+				$('#csccmc1rpcx4d_risk_v_sdelke').html(addspace(res)+' $');
+			}
+			function csccmc1rpcx4d_stoimost_puncta(){
+				var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					Ntp=$('#csclmni_cel_input_range').val(),
+					Cp=S/Ntp;
+				Cp=Cp.toFixed(2);
+				$('#csccmc1rpcx4d_stoimost_puncta').html(addspace(Cp)+' $');
+				csccmc1rpcx4d_trebuemiy_obem(Cp);
+			}
+			function csccmc1rpcx4d_trebuemiy_obem(Cp){
+				var lot=parseInt($('.csclmbs_option.active').attr('lot')),
+					P=parseFloat($('.csclmbs_option.active').attr('punct_val'));
+					Y=edit_cotirovka_Y($('.csclmbs_option.active'));
+					V=Cp/(lot*P)*Y;
+				V=V.toFixed(2);
+				var ifNext=csccmc1rpcx4d_margilnoe_obespechenie(V);
+				if(ifNext){
+					$('#csccmc1rpcx4d_trebuemiy_obem').html(V+'  лота');
+				}
+				return ifNext;
+			}
+			function edit_cotirovka_Y(element){//Возвращает значение поправочной котировки Y для переданого елемента
+				var ECY=element.attr('edit_cotirovka_Y'),
+					Y;
+				ECY=ECY.replace(/\s{1,}/g,'');//Удаляем все пробелы
+				if(ECY.indexOf('/')+1){
+					ECY=ECY.split('/');
+					Y=$('.csclmbs_option[val_currencies^="'+ECY[1]+'"]').attr('this_cotirovka');
+					Y=ECY[0]/Y;
+				}else if(ECY=='1'){
+					Y=1;
+				}else{
+					Y=$('.csclmbs_option[val_currencies^="'+ECY+'"]').attr('this_cotirovka');
+				}
+				return Y;
+			}
+
+			function csccmc1rpcx4d_margilnoe_obespechenie(V){
+				var L=parseFloat($('.csclmbs_option.active').attr('plecho_L')),
+					G=raschet_cotirovka_margilnogo_plecha_G($('.csclmbs_option.active')),
+					lot=parseInt($('.csclmbs_option.active').attr('lot')),
+					K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+					M=V*lot/L*G;
+				M=M.toFixed(2);
+				if(M<K){
+					$('#csccmc1rpcx4d_margilnoe_obespechenie').html(addspace(M)+' $');
+					return true;
+				}else{
+					$('#csccmc1rpcx4d_margilnoe_obespechenie').html(addspace(K)+' $');
+					return false;
+				}
+			}
+			function raschet_cotirovka_margilnogo_plecha_G(element){
+				var Gtext=element.attr('edit_cotirovka_G'),
+					G;
+				Gtext=Gtext.replace(/\s{1,}/g,'');//Удаляем все пробелы
+				if(Gtext.indexOf('*')+1){
+					Gtext=Gtext.split('*');
+					Gtext[0]=$('.csclmbs_option[val_currencies^="'+Gtext[0]+'"]').attr('this_cotirovka');
+					Gtext[1]=$('.csclmbs_option[val_currencies^="'+Gtext[1]+'"]').attr('this_cotirovka');
+					G=Gtext[0]*Gtext[1];
+					//- console.log(Gtext[0]+' * '+Gtext[1]+' = '+G);
+				}else if(Gtext=='1'){
+					G=1;
+				}else{
+					G=$('.csclmbs_option[val_currencies^="'+Gtext+'"]').attr('this_cotirovka');
+				}
+				return G;
+			}
+
+			function csccmc1rpcx4d_facticheskoe_plecho(){
+				var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					TP=parseFloat($('#csclmni_cel_input_text').val()),//ЦЕЛЬ (ТЕЙК ПРОФИТ)
+					CP=parseFloat($('#csclmni_this_cotirovka').html()),//ТЕКУЩАЯ КОТИРОВКА
+					K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10);//СУМА НА АККАУНТЕ (НАЧАЛЬНЫЙ КАПИТАЛ)
+				//- console.log('S => '+S+'\n'+'TP => '+TP+'\n'+'CP => '+CP+'\n'+'K => '+K+'\n');
+				if($('#csclmbd_pocupka').hasClass('active')){
+					var FL=S/(K*(TP-CP)/CP);
+					//- D18/(D15*(F12-G21)/F12)
+
+				}else{
+					var FL=S/(K*(CP-TP)/CP);
+					//- D18/(D15*(G21-F12)/F12))
+				}
+				//- =ОКРУГЛВВЕРХ(ЕСЛИ(F10="продажа";D18/(D15*(F12-G21)/F12);D18/(D15*(G21-F12)/F12));0)
+				FL=Math.ceil(FL);
+				$('#csccmc1rpcx4d_facticheskoe_plecho').html('1:'+FL);
+			}
+
+			function csccmc1rpcx4d_spred_punct(){
+				var el=$('.csclmbs_option.active'),
+					ask=parseFloat(el.attr('this_ask')),
+					bid=parseFloat(el.attr('this_cotirovka')),
+					P=parseFloat(el.attr('punct_val')),
+					Spreadp=(ask-bid)/P;
+				Spreadp=Spreadp.toFixed(1);
+				$('#csccmc1rpcx4d_spred_punct').html('('+Spreadp+'  п.)');
+				csccmc1rpcx4d_spred_money(Spreadp);
+			}
+			function csccmc1rpcx4d_spred_money(Spreadp){
+				var S=Math.round(parseFloat($('#hochu_zarabatovat_na_sdelke___percent').val().replace(/[^.0-9]/gim,''), 10)),//Берем значение инпута типа текст (в процентах)
+					Ntp=$('#csclmni_cel_input_range').val(),
+					Cp=S/Ntp,
+					Spreadm=Spreadp*Cp;
+				Spreadm=Spreadm.toFixed(2);
+				$('#csccmc1rpcx4d_spred_money').html(addspace(Spreadm)+' $');
+			}
+
+
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+
+			csccmc1fwbc_value_rang_input();
+			$('#csccmc1fwbc_value_rang_input').on('input', function(){//Событие изменения ползунка
+				csccmc1fwbc_value_rang_input();
+			});
+			function csccmc1fwbc_value_rang_input(){
+				var t=$('#csccmc1fwbc_value_rang_input');
+				$('#csccmc1fwbc_value_vozmozhniy_rezultat').html(t.val());
+				gradient_input(t,'#d671d5','#7538bc','#f8f8f8');//Добавляем градиент на текущий инпут
+				csccmc1fwb_graphick();
+			}
+
+
+
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			csccmc1fwb_graphick();
+			function csccmc1fwb_graphick(){
+				var K=parseInt($('#csclmni_this_money_account').val().replace(/\D+/g,""), 10),
+					n=parseInt($('#csccmc1fwbc_value_rang_input').val(), 10),
+					i=hochu_zarabatovat_na_sdelke___percent_value()/100;
+				$('.csccmc1fwbg_colum').each(function(index){
+					var Sbar=K*Math.pow((1+i),(index+1)*n);
+					Sbar=Math.round(Sbar);
+					if(Sbar/99999>1){
+						Sbar=addspace(Sbar.toExponential(2).replace('+',''));
+					}
+
+					//- console.log('K*Math.pow((1+i),n)\n','K => '+K+'\n','i => '+i+'\n','n => '+n+'\n');
+					$(this).children('#csccmc1_vozmozhniy_result .csccmc1fwbgc_row_money').html(Sbar+' $')
+				});
+			}
+
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//---------------------------------------ВТОРОЙ ЭКРАН-----------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			//--------------------------------------------------------------------------------------------
+			$('.csclm_dohod_nakopity>div').click(function(){
+				if(!$(this).hasClass('active')){
+					$('.csclm_dohod_nakopity>div').removeClass('active');
+					$(this).addClass('active');
+				}
+				selected_cel_left_menu_2();
+			});
+			selected_cel_left_menu_2();
+			function selected_cel_left_menu_2(){
+				var hochu_zrarbotat_name=$('#csclmgb_name_left_menu_2'),
+					input_hochu_zarabotat=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2'),
+					csccmc1gct_name=$('#csccmc1gct_name'),
+					csccmc1sa_name=$('.csccmc1sa_name');
+				if($('#csclmbd_dohod_mounth_left_menu_2').hasClass('active')){
+					hochu_zrarbotat_name.html('хочу зарабатывать в месяц');
+					csccmc1gct_name.html('Динамика изменения дохода');
+					input_hochu_zarabotat.attr('step',500);
+					input_hochu_zarabotat.attr('min',500);
+					input_hochu_zarabotat.attr('max',20000);
+					input_hochu_zarabotat.val(500);
+					csccmc1sa_name.html('Сумма на аккаунте за выбранный период');
+				}else{
+					hochu_zrarbotat_name.html('хочу накопить');
+					csccmc1gct_name.html('Динамика накопления средств');
+					input_hochu_zarabotat.attr('step',5000);
+					input_hochu_zarabotat.attr('min',10000);
+					input_hochu_zarabotat.attr('max',500000);
+					input_hochu_zarabotat.val(10000);
+					csccmc1sa_name.html('Заработок за выбранный период');
+				}
+				all_event_content_2();
+			}
+
+			//--------------------------------------------------------------------------------------------
+			$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2').on('input', function(){//Обрабатываем изменения ползунка "Хочу заработать"
+				hochu_zarabotat___range_in_money_left_menu_2();//Выводим на экран процент "Хочу заработать" от "Текущей суммы"
+				all_event_content_2();
+			});
+			function hochu_zarabotat___range_in_money_left_menu_2(){//Выводим на экран $ хочу заработать
+				var pr_inp=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2').val();
+				$('#scslmgb_hochu_zarabatovat_na_sdelke_left_menu_2').html(addspace(pr_inp)+' $');
+				gradient_input($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2'),'#fdfdfd','#fdfdfd','rgba(167,129,214,.7)');
+			}
+
+			//--------------------------------------------------------------------------------------------
+			start_money_in_account___left_menu_2();
+			$('#start_money_in_account___left_menu_2').on('input', function(){
+				start_money_in_account___left_menu_2();
+				all_event_content_2();
+			});
+			function start_money_in_account___left_menu_2(){//Выводим на экран $
+				var pr_inp=$('#start_money_in_account___left_menu_2').val();
+				$('#csclmn_start_money_in_account___left_menu_2').html(addspace(pr_inp)+' $');
+				gradient_input($('#start_money_in_account___left_menu_2'),'#d671d5','#7538bc','#f8f8f8');
+			}
+
+			//--------------------------------------------------------------------------------------------
+			csclmni_cel_input_range_left_menu_2();
+			$('#csclmni_cel_input_range_left_menu_2').on('input', function(){
+				csclmni_cel_input_range_left_menu_2();
+				all_event_content_2();
+			});
+			function csclmni_cel_input_range_left_menu_2(){//Выводим на экран $
+				var pr_inp=$('#csclmni_cel_input_range_left_menu_2').val();
+				$('#csclmni_name_punct_val_cel_left_menu_2').html(pr_inp+' пунктов');
+				gradient_input($('#csclmni_cel_input_range_left_menu_2'),'#d671d5','#7538bc','#f8f8f8');
+			}
+
+			//--------------------------------------------------------------------------------------------
+			csclmni_risk_input_range_left_menu_2();
+			$('#csclmni_risk_input_range_left_menu_2').on('input', function(){
+				csclmni_risk_input_range_left_menu_2();
+				all_event_content_2();
+			});
+			function csclmni_risk_input_range_left_menu_2(){//Выводим на экран $
+				var pr_inp=$('#csclmni_risk_input_range_left_menu_2').val();
+				$('#csclmni_name_punct_val_risk_left_menu_2').html(pr_inp);
+				gradient_input($('#csclmni_risk_input_range_left_menu_2'),'#d671d5','#7538bc','#f8f8f8');
+			}
+
+			//--------------------------------------------------------------------------------------------
+			$('#href_online_graphic_left_menu_2').click(function(){
+				frame_graphic_online(false,this);
+			});
+			//--------------------------------------------------------------------------------------------
+			function all_event_content_2(){
+				hochu_zarabotat___range_in_money_left_menu_2();
+				grapgick_generation_content_2();
+			}
+			function grapgick_generation_content_2(){
+				var Np=$('#csclmni_cel_input_range_left_menu_2').val(),//Средний прирост
+					FL=$('#csclmni_risk_input_range_left_menu_2').val(),//Плечо
+					K=$('#start_money_in_account___left_menu_2').val(),
+					Dcel_d=$('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2').val(),
+					mounth=0;
+					var i=(Math.pow(1+Np*FL/10000,20)-1);
+					if($('#csclmbd_dohod_mounth_left_menu_2').hasClass('active')){
+						mounth=Math.ceil(Math.log((Dcel_d*(1+i))/(K*i))/Math.log(1+i));
+						$('.csccmc1fwbf_info').html('Срок выхода на желаемый доход');
+						//- =(1+Средний прирост*Плечо/10000)^20-1
+						//- mounth=Math.ceil(Math.log((Dcel_d/20*(1+(Np*FL/10000)))/((Np*FL/10000)*K))/Math.log((1+(Np*FL/10000)))/20)+1;
+						//- ОКРУГЛВВЕРХ(LOG     ((D33   /20*(1+(D39*D42/10000)))/((D39*D42/10000)*D36);(1+(D39*D42/10000)))/20;0)+1
+						//- mounth=Math.ceil(Math.log(1+Np*FL/10000)*(Dcel_d/20*(1+Np*FL/10000))/((Np*FL/10000)*K))/20;
+						//- console.log('\n\nNp => '+Np,'\nFL => '+FL,'\nDcel_d => '+Dcel_d,'\nK => '+K,'\ni => '+i);
+						//- console.log('\n\n(1+i) => '+(1+i));
+						//- console.log('\n\n(Dcel_d*(1+i)) => '+(Dcel_d*(1+i)));
+						//- console.log('\n\n(K*i) => '+(K*i));
+						//- console.log('\n\n----------(Dcel_d*(1+i))/(K*i) => '+(Dcel_d*(1+i))/(K*i));
+						//- console.log('\n\nmounth => '+mounth);
+					}else{
+						mounth=Math.ceil(Math.log(Dcel_d/K)/Math.log(1+i));
+						$('.csccmc1fwbf_info').html('Срок накопления желаемой суммы');
+						//- mounth=Math.ceil(Math.log(Dcel_d*(Np*FL/10000)/((Np*FL/10000)*K))/Math.log((1+(Np*FL/10000)))/20);
+						//- console.log(mounth);
+						//=ОКРУГЛВВЕРХ(       LOG(D33*(D39*D42/10000)/((D39*D42/10000)*D36);1+(D39*D42/10000))/20;0)
+					}
+					generate_graphick_online(mounth);
+					$('#csccmc1gct_date').html(mounth_in_yearmounth_text(mounth));
+			}
+			function summa_account_gistogramma(colVal,index){
+				var Np=$('#csclmni_cel_input_range_left_menu_2').val(),//Средний прирост
+					FL=$('#csclmni_risk_input_range_left_menu_2').val(),//Плечо
+					K=$('#start_money_in_account___left_menu_2').val();
+				if($('#csclmbd_dohod_mounth_left_menu_2').hasClass('active')){
+					var S=K*Math.pow((1+(Np*FL/10000)),(colVal*index));
+					//- =$D$36*(1+($D$39*$D$42/10000))^(I44*20)
+				}else{
+					var S=(K*(Np*FL/10000)*Math.pow(1+(Np*FL/10000),(colVal*index-1)))*20;
+					//- =($D$36*($D$39*$D$42/10000)*(1+$D$39*$D$42/10000)^(U44*20-1))*20
+				}
+				$('.csccmc1sa_value').html(addspace(S.toFixed(2))+' $');
+				$('#csccmc1_two_grephick .csccmc1fwbg_colum').hover(function(){// Считаем и выводим заработок в месяц (под гистограммой) для отдельного блока
+					var Np=$('#csclmni_cel_input_range_left_menu_2').val(),//Средний прирост
+						FL=$('#csclmni_risk_input_range_left_menu_2').val(),//Плечо
+						K=$('#start_money_in_account___left_menu_2').val(),
+						i=(Math.pow(1+Np*FL/10000,20)-1),
+						n=parseInt($(this).attr('day'));
+					if($('#csclmbd_dohod_mounth_left_menu_2').hasClass('active')){
+						var S=K*Math.pow((1+(Np*FL/10000)),n);
+						//- var S=Math.pow((1+Np*FL/10000),20)-1;
+						//- =$D$36*(1+($D$39*$D$42/10000))^(I44*20)
+					}else{
+						//- console.log(n/20);
+						var S=i*K*Math.pow(1+i,n/20)/(1+i);
+						//- var S=(K*(Np*FL/10000)*Math.pow(1+(Np*FL/10000),n))*20;
+						//- =($D$36*($D$39*$D$42/10000)*(1+$D$39*$D$42/10000)^(U44*20-1))*20
+					}
+					$('.csccmc1sa_value').html(addspace(S.toFixed(2))+' $');
+				},function(){
+					grapgick_generation_content_2();
+				});
+			}
+			function mounth_in_yearmounth_text(mounth){
+				var text='',
+					m=mounth%12;
+				if(mounth>11){
+					var y=mounth/12;
+					y=Math.floor(y);
+					var yText='';
+					if(y===1){
+						yText='год';
+					}else if(y>1&&y<5){
+						yText='года';
+					}else{
+						yText='лет';
+					}
+					text=y+' '+yText;
+				}
+				if(m>0){
+					var mText='';
+					if(m===1){
+						mText='месяц';
+					}else if(m>1&&m<5){
+						mText='месяца';
+					}else{
+						mText='месяцев';
+					}
+					text+=' '+m+' '+mText;
+				}
+				if(y>11||(y==11&&m>0)){
+					text='более 11 лет'
+				}
+				if(text===''){
+					text='менее чем 1 месяц'
+				}
+				return $.trim(text);
+			}
+			function generate_graphick_online(mounth){
+				if(mounth>=1&&mounth<=11){
+					var mounth=mounth,
+					index=20;
+					generate_colum(mounth,20);
+					summa_account_gistogramma(mounth,index);
+				}else if(mounth>=12&&mounth<=24){
+					var cvartal=Math.ceil(mounth/3),
+					index=3*20;
+					generate_colum(cvartal,index);
+					summa_account_gistogramma(cvartal,index);
+				}else if(mounth>=25&&mounth<=120){
+					var year=Math.ceil(mounth/12),
+					index=12*20;
+					generate_colum(year,index);
+					summa_account_gistogramma(year,index);
+				}
+			}
+			function generate_colum(colVal,index){
+				var index=index;
+					Np=$('#csclmni_cel_input_range_left_menu_2').val(),//Средний прирост
+					FL=$('#csclmni_risk_input_range_left_menu_2').val(),//Плечо
+					K=$('#start_money_in_account___left_menu_2').val(),
+					Dcel_d=Math.round($('#scslmgb_hochu_zarabatovat_na_sdelke_input_range_left_menu_2').val()),
+					i=(Math.pow(1+Np*FL/10000,20)-1);
+				var element=document.getElementById('csccmc1_two_grephick');
+				$('#csccmc1_two_grephick').html('');//Удаляем все дочерние элементы
+				var col_num=20;
+				var width=100/colVal,
+					padding=width*0.327,
+					period=index==20?'месяц':(index==60?'квартал':'год');
+
+				for(var colI=colVal;colI>0;colI--){
+					var n=(colVal-colI+1)*index;
+					if($('#csclmbd_dohod_mounth_left_menu_2').hasClass('active')){
+						var Dbar_n=i*K*Math.pow(1+i,(colVal-colI+1)*index/20)/(1+i);
+						//- var Dbar_n=K*(Np*FL/10000)*Math.pow((1+Np*FL/10000),n-1)*20;
+						var Sn=K*(Np*FL/10000)*Math.pow((1+Np*FL/10000),(colVal*index-1))*20;
+						//- =$D$36*($D$39*$D$42/10000)*(1+$D$39*$D$42/10000)^(C88-1)*20
+					}else{
+						var Dbar_n=K*Math.pow(1+(Np*FL/10000),n);
+						var Sn=K*Math.pow(1+(Np*FL/10000),(colVal*index-1));
+						//- console.log('\n\nNp => '+Np,'\nFL => '+FL,'\nn => '+n,'\nK => '+K);
+						//- =  $D$36*(1+($D$39*$D$42/10000))^C88
+					}
+
+
+					col_num=Math.round(20/Sn*Dbar_n);
+
+					col_num=col_num>0 ? (col_num<=20 ? col_num : 20) : 1;
+					//- =$D$36*($D$39*$D$42/10000)*(1+$D$39*$D$42/10000)^(C64-1)
+
+					//- var Dbar_n=K*Math.pow(1+(Np*FL/10000),((colVal-colI+1)*index))*(Np*FL/10000);
+					var colum=document.createElement('div');
+					
+					colum.setAttribute('class','csccmc1fwbg_colum');
+					colum.style.width=(width-padding)+'%';
+					colum.style.margin='0px '+(padding/2)+'%';
+					var row_money=document.createElement('div');
+					row_money.setAttribute('class','csccmc1fwbgc_row_money');
+					row_money.innerHTML=addspace(Math.round(Dbar_n))+' $';
+					colum.appendChild(row_money);
+					for(var rowI=0;rowI<col_num;rowI++){
+						var row=document.createElement('div');
+						row.setAttribute('class','csccmc1fwbgc_row');
+						colum.appendChild(row);
+					}
+					var row_num=document.createElement('div');
+					row_num.setAttribute('class','csccmc1fwbgc_row_num');
+					row_num.innerHTML=(colVal-colI+1)+'й '+period;
+					//- row_num.innerHTML=(colVal-colI);
+					colum.appendChild(row_num);
+					colum.setAttribute('day',n);
+					//- console.log(colum);
+					element.appendChild(colum);
+				}
+			}
+			//- .csccmc1fwbg_colum
+			//- 	.csccmc1fwbgc_row_money 5 408 $
+			//- 	.csccmc1fwbgc_row
+			//- 	.csccmc1fwbgc_row
+			//- 	.csccmc1fwbgc_row
+			//- 	.csccmc1fwbgc_row
+			//- 	.csccmc1fwbgc_row_num 3й
